@@ -136,7 +136,7 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(builder =>
     {
-        builder.WithOrigins("http://localhost:3000/sted-planning")  
+        builder.WithOrigins("https://localhost:3001/sted-planning")  
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
